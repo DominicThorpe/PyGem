@@ -1,0 +1,19 @@
+<body width=700 height=400>
+    <section position="top">
+        <text margin=10 position="left">This is the game</text>
+	<text position="left" *x=50>Points: {{ points }}</text>
+        <button margin=10 position="right" action="game.function">Exit</button>
+    </section>
+
+    <section onclick="game.onclickevent">
+        <rect width=30 height=30 border="black" fill="white" borderwidth=3>
+        <circle radius=20 border="black" fill="white" borderwidth=3>
+        <line startx=20 starty=20 endx=40 endy=70 color="black" width=4> 
+
+        <polygon border="black" fill="white" borderwidth=3>
+            <point x=20 y=20>
+            <point x=50 y=40>
+            <point x=100 y=70>
+        </polygon>
+    </section>
+</body>
